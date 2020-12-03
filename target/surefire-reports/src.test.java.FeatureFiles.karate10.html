@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>src.test.java.FeatureFiles.karate10</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">5</div>
+            
+<div class="bg-danger" id="nav-fail">0</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2020-12-02 04:51:36 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1.1:14]">[1.1:14] DDT testing </a>
+</div>
+<div class="nav-item passed">
+<a href="#[1.2:15]">[1.2:15] DDT testing </a>
+</div>
+<div class="nav-item passed">
+<a href="#[1.3:16]">[1.3:16] DDT testing </a>
+</div>
+<div class="nav-item passed">
+<a href="#[1.4:17]">[1.4:17] DDT testing </a>
+</div>
+<div class="nav-item passed">
+<a href="#[1.5:18]">[1.5:18] DDT testing </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/FeatureFiles/karate10.feature</span><span class="feature-description">Karate test suite | data driven testing</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1.1:14]">
+<div class="heading-container">
+<div class="scenario-tags">
+<a class="badge badge-primary" href="karate-tags.html">DDT</a>
+</div>
+<span class="scenario-keyword">Scenario Outline: [1.1:14]</span><span class="scenario-name">DDT testing </span>
+</div>
+<div class="scenario-time passed">ms: 990</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="1">
+<div class="step-ref passed">1</div>
+<div class="step-cell passed">Given url "http://reqres.in"</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="preformatted" data-parent="1">16:51:33.961 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="2">
+<div class="step-ref passed">2</div>
+<div class="step-cell passed">And path "/api/users?page=1"</div>
+</div>
+<div class="time-cell passed">13</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="3">
+<div class="step-ref passed">3</div>
+<div class="step-cell passed">When method Get</div>
+</div>
+<div class="time-cell passed">963</div>
+</div>
+<div class="preformatted" data-parent="3">16:51:34.347 request:
+1 &gt; GET http://reqres.in/api/users%3Fpage=1
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: reqres.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:51:34.511 response time in milliseconds: 162.96
+1 &lt; 301
+1 &lt; CF-RAY: 5fb4aa467dbd1972-SIN
+1 &lt; Cache-Control: max-age=3600
+1 &lt; Connection: keep-alive
+1 &lt; Date: Wed, 02 Dec 2020 11:21:34 GMT
+1 &lt; Expires: Wed, 02 Dec 2020 12:21:34 GMT
+1 &lt; Location: https://reqres.in/api/users%3Fpage=1
+1 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=8y%2BdwpXBtBPwqVhf0IUPKrgNvO3IMyddi2zD5D%2Bj961TI7owt9G5uQXawiGxT929gftt9PodCr%2BI9K00%2FxQUCwgaVqvXKIAVggU%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Accept-Encoding
+1 &lt; cf-request-id: 06c4c8c0090000197237aa6000000001
+
+16:51:34.517 request:
+2 &gt; GET http://reqres.in/api/users%3Fpage=1
+2 &gt; Accept-Encoding: gzip,deflate
+2 &gt; Connection: Keep-Alive
+2 &gt; Host: reqres.in
+2 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:51:34.904 response time in milliseconds: 381.46
+2 &lt; 200
+2 &lt; Age: 3
+2 &lt; CF-Cache-Status: HIT
+2 &lt; CF-RAY: 5fb4aa48dff61a76-SIN
+2 &lt; Cache-Control: max-age=14400
+2 &lt; Connection: keep-alive
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Date: Wed, 02 Dec 2020 11:21:34 GMT
+2 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+2 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=gMj6Th3Z8F7xImpgXOxlczCcXujJ%2BNxoB9QyH%2Fv4R1p17Pc12tx%2BDRjVBPhXG2iSgPyzCsB9Q7RqInzGVA8jKJaMPwcwgfMplnI%3D"}],"group":"cf-nel","max_age":604800}
+2 &lt; Server: cloudflare
+2 &lt; Set-Cookie: __cfduid=dd5c0d4b4b0b21b42082797dcb35fd90f1606908094; expires=Fri, 01-Jan-21 11:21:34 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Vary: Accept-Encoding
+2 &lt; access-control-allow-origin: *
+2 &lt; cf-request-id: 06c4c8c18900001a76d03c4000000001
+2 &lt; etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+2 &lt; via: 1.1 vegur
+2 &lt; x-powered-by: Express
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}</div>
+<div class="step-row">
+<div class="step-container" id="4">
+<div class="step-ref passed">4</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="5">
+<div class="step-ref passed">5</div>
+<div class="step-cell passed">And match response.page == 1</div>
+</div>
+<div class="time-cell passed">13</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1.2:15]">
+<div class="heading-container">
+<div class="scenario-tags">
+<a class="badge badge-primary" href="karate-tags.html">DDT</a>
+</div>
+<span class="scenario-keyword">Scenario Outline: [1.2:15]</span><span class="scenario-name">DDT testing </span>
+</div>
+<div class="scenario-time passed">ms: 292</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="6">
+<div class="step-ref passed">6</div>
+<div class="step-cell passed">Given url "http://reqres.in"</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="6">16:51:34.985 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="7">
+<div class="step-ref passed">7</div>
+<div class="step-cell passed">And path "/api/users?page=2"</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="8">
+<div class="step-ref passed">8</div>
+<div class="step-cell passed">When method Get</div>
+</div>
+<div class="time-cell passed">290</div>
+</div>
+<div class="preformatted" data-parent="8">16:51:34.995 request:
+1 &gt; GET http://reqres.in/api/users%3Fpage=2
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: reqres.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:51:35.104 response time in milliseconds: 108.14
+1 &lt; 301
+1 &lt; CF-RAY: 5fb4aa4a48551a72-SIN
+1 &lt; Cache-Control: max-age=3600
+1 &lt; Connection: keep-alive
+1 &lt; Date: Wed, 02 Dec 2020 11:21:35 GMT
+1 &lt; Expires: Wed, 02 Dec 2020 12:21:35 GMT
+1 &lt; Location: https://reqres.in/api/users%3Fpage=2
+1 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=ABmevRz6oG4nom0QZDREaOiFAAY09E0hmbfdP7EcTq0qG6wUheoR%2BGfzum0jlTjgeTKtiVZm5cio6gGdEKP13NZRoxtRd%2FxQKNI%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Accept-Encoding
+1 &lt; cf-request-id: 06c4c8c26d00001a7233bcc000000001
+
+16:51:35.106 request:
+2 &gt; GET http://reqres.in/api/users%3Fpage=2
+2 &gt; Accept-Encoding: gzip,deflate
+2 &gt; Connection: Keep-Alive
+2 &gt; Host: reqres.in
+2 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:51:35.274 response time in milliseconds: 175.67
+2 &lt; 200
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Age: 2333
+2 &lt; CF-Cache-Status: HIT
+2 &lt; CF-RAY: 5fb4aa4b5ec2e25f-SIN
+2 &lt; Cache-Control: max-age=14400
+2 &lt; Connection: keep-alive
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Date: Wed, 02 Dec 2020 11:21:35 GMT
+2 &lt; Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+2 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+2 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=E7xD3QD2zOigvDSoxLoiLMjeAljpsaUeRSJQ3T%2BxQEiUDHh%2B%2BulzREHxHT2RtUveO7uPNcO0wX9VXRii%2FR3D8QouXZ8j4T8pMXw%3D"}],"group":"cf-nel","max_age":604800}
+2 &lt; Server: cloudflare
+2 &lt; Set-Cookie: __cfduid=d6de05e1c517d0d709c05010a92bb4b631606908095; expires=Fri, 01-Jan-21 11:21:35 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Vary: Accept-Encoding
+2 &lt; Via: 1.1 vegur
+2 &lt; X-Powered-By: Express
+2 &lt; cf-request-id: 06c4c8c3180000e25fca3a2000000001
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}</div>
+<div class="step-row">
+<div class="step-container" id="9">
+<div class="step-ref passed">9</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="10">
+<div class="step-ref passed">10</div>
+<div class="step-cell passed">And match response.page == 1</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1.3:16]">
+<div class="heading-container">
+<div class="scenario-tags">
+<a class="badge badge-primary" href="karate-tags.html">DDT</a>
+</div>
+<span class="scenario-keyword">Scenario Outline: [1.3:16]</span><span class="scenario-name">DDT testing </span>
+</div>
+<div class="scenario-time passed">ms: 267</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="11">
+<div class="step-ref passed">11</div>
+<div class="step-cell passed">Given url "http://reqres.in"</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="11">16:51:35.289 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="12">
+<div class="step-ref passed">12</div>
+<div class="step-cell passed">And path "/api/users?page=3"</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="13">
+<div class="step-ref passed">13</div>
+<div class="step-cell passed">When method Get</div>
+</div>
+<div class="time-cell passed">264</div>
+</div>
+<div class="preformatted" data-parent="13">16:51:35.289 request:
+1 &gt; GET http://reqres.in/api/users%3Fpage=3
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: reqres.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:51:35.383 response time in milliseconds: 104.87
+1 &lt; 301
+1 &lt; CF-RAY: 5fb4aa4c2d8d1a22-SIN
+1 &lt; Cache-Control: max-age=3600
+1 &lt; Connection: keep-alive
+1 &lt; Date: Wed, 02 Dec 2020 11:21:35 GMT
+1 &lt; Expires: Wed, 02 Dec 2020 12:21:35 GMT
+1 &lt; Location: https://reqres.in/api/users%3Fpage=3
+1 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=qKglGKR%2FrXb%2BQfaSa6xHvV%2F1%2Fj2xkp5zBbcRxSwnWVAp4b2%2FR3xe37I17xjQyyop0SwBbXUJe1Go2wBSNL8mMb45a7lO21VvZWU%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Accept-Encoding
+1 &lt; cf-request-id: 06c4c8c39700001a222300d000000001
+
+16:51:35.399 request:
+2 &gt; GET http://reqres.in/api/users%3Fpage=3
+2 &gt; Accept-Encoding: gzip,deflate
+2 &gt; Connection: Keep-Alive
+2 &gt; Host: reqres.in
+2 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:51:35.555 response time in milliseconds: 153.32
+2 &lt; 200
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Age: 929
+2 &lt; CF-Cache-Status: HIT
+2 &lt; CF-RAY: 5fb4aa4d2bf71a76-SIN
+2 &lt; Cache-Control: max-age=14400
+2 &lt; Connection: keep-alive
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Date: Wed, 02 Dec 2020 11:21:35 GMT
+2 &lt; Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+2 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+2 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=L7e7GAJ5hZZNATN%2Fb3U0h4RsnQKPNRyIZ0iHyyDsM4EqBQBOApFNoY1KALrTOUQ2YAwTz8eN5JE%2B3059OeqdUXT%2FMo8HDPeaeyA%3D"}],"group":"cf-nel","max_age":604800}
+2 &lt; Server: cloudflare
+2 &lt; Set-Cookie: __cfduid=de34d5f7cf2c2f2a86dcdfadcba55ec681606908095; expires=Fri, 01-Jan-21 11:21:35 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Vary: Accept-Encoding
+2 &lt; Via: 1.1 vegur
+2 &lt; X-Powered-By: Express
+2 &lt; cf-request-id: 06c4c8c43900001a76c9330000000001
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}</div>
+<div class="step-row">
+<div class="step-container" id="14">
+<div class="step-ref passed">14</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="15">
+<div class="step-ref passed">15</div>
+<div class="step-cell passed">And match response.page == 1</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1.4:17]">
+<div class="heading-container">
+<div class="scenario-tags">
+<a class="badge badge-primary" href="karate-tags.html">DDT</a>
+</div>
+<span class="scenario-keyword">Scenario Outline: [1.4:17]</span><span class="scenario-name">DDT testing </span>
+</div>
+<div class="scenario-time passed">ms: 278</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="16">
+<div class="step-ref passed">16</div>
+<div class="step-cell passed">Given url "http://reqres.in"</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="16">16:51:35.555 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="17">
+<div class="step-ref passed">17</div>
+<div class="step-cell passed">And path "/api/users?page=4"</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="18">
+<div class="step-ref passed">18</div>
+<div class="step-cell passed">When method Get</div>
+</div>
+<div class="time-cell passed">275</div>
+</div>
+<div class="preformatted" data-parent="18">16:51:35.555 request:
+1 &gt; GET http://reqres.in/api/users%3Fpage=4
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: reqres.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:51:35.680 response time in milliseconds: 116.83
+1 &lt; 301
+1 &lt; CF-RAY: 5fb4aa4dddc6a922-SIN
+1 &lt; Cache-Control: max-age=3600
+1 &lt; Connection: keep-alive
+1 &lt; Date: Wed, 02 Dec 2020 11:21:35 GMT
+1 &lt; Expires: Wed, 02 Dec 2020 12:21:35 GMT
+1 &lt; Location: https://reqres.in/api/users%3Fpage=4
+1 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Y9q9PGoFnjIiUR0urqArTcrnr1W9SwiR%2BgR4MhbMBNXBEMBaW0nRhug0iDFNevUmNJIGLmMPJ2tDh9OPL%2FXlVsvd3ElvLVRlsG0%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Accept-Encoding
+1 &lt; cf-request-id: 06c4c8c4ad0000a922da8bd000000001
+
+16:51:35.680 request:
+2 &gt; GET http://reqres.in/api/users%3Fpage=4
+2 &gt; Accept-Encoding: gzip,deflate
+2 &gt; Connection: Keep-Alive
+2 &gt; Host: reqres.in
+2 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:51:35.836 response time in milliseconds: 153.32
+2 &lt; 200
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Age: 3
+2 &lt; CF-Cache-Status: HIT
+2 &lt; CF-RAY: 5fb4aa4eee6be25b-SIN
+2 &lt; Cache-Control: max-age=14400
+2 &lt; Connection: keep-alive
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Date: Wed, 02 Dec 2020 11:21:35 GMT
+2 &lt; Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+2 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+2 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=odPev7EChpOa9yV5oiSn4drsonJoZtg%2FljuXRfAC1SVOiQWxVXkwxX86SJ%2BVf8zsEeWjvUj583u3ncPfkwqcpyrbKGEUIU84h9Q%3D"}],"group":"cf-nel","max_age":604800}
+2 &lt; Server: cloudflare
+2 &lt; Set-Cookie: __cfduid=d65c1cc2949390e9566a83cad583ee6891606908095; expires=Fri, 01-Jan-21 11:21:35 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Vary: Accept-Encoding
+2 &lt; Via: 1.1 vegur
+2 &lt; X-Powered-By: Express
+2 &lt; cf-request-id: 06c4c8c5550000e25bc81f5000000001
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}</div>
+<div class="step-row">
+<div class="step-container" id="19">
+<div class="step-ref passed">19</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="20">
+<div class="step-ref passed">20</div>
+<div class="step-cell passed">And match response.page == 1</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1.5:18]">
+<div class="heading-container">
+<div class="scenario-tags">
+<a class="badge badge-primary" href="karate-tags.html">DDT</a>
+</div>
+<span class="scenario-keyword">Scenario Outline: [1.5:18]</span><span class="scenario-name">DDT testing </span>
+</div>
+<div class="scenario-time passed">ms: 266</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="21">
+<div class="step-ref passed">21</div>
+<div class="step-cell passed">Given url "http://reqres.in"</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="preformatted" data-parent="21">16:51:35.836 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="22">
+<div class="step-ref passed">22</div>
+<div class="step-cell passed">And path "/api/users?page=5"</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="23">
+<div class="step-ref passed">23</div>
+<div class="step-cell passed">When method Get</div>
+</div>
+<div class="time-cell passed">264</div>
+</div>
+<div class="preformatted" data-parent="23">16:51:35.836 request:
+1 &gt; GET http://reqres.in/api/users%3Fpage=5
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: reqres.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:51:35.945 response time in milliseconds: 96.14
+1 &lt; 301
+1 &lt; CF-RAY: 5fb4aa4f9ff3e25b-SIN
+1 &lt; Cache-Control: max-age=3600
+1 &lt; Connection: keep-alive
+1 &lt; Date: Wed, 02 Dec 2020 11:21:35 GMT
+1 &lt; Expires: Wed, 02 Dec 2020 12:21:35 GMT
+1 &lt; Location: https://reqres.in/api/users%3Fpage=5
+1 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=q58RzcXUV1MSz4UKNbzEh%2Fhv9EcK5C8zOE%2B7LN7Tk0c5m7O%2B6V44P3y9s0v5SzU1AfSVWVg24v%2FGvDYx6pW2anHIMSMJcTG3zxk%3D"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Accept-Encoding
+1 &lt; cf-request-id: 06c4c8c5c40000e25bfd30d000000001
+
+16:51:35.945 request:
+2 &gt; GET http://reqres.in/api/users%3Fpage=5
+2 &gt; Accept-Encoding: gzip,deflate
+2 &gt; Connection: Keep-Alive
+2 &gt; Host: reqres.in
+2 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_251)
+
+16:51:36.102 response time in milliseconds: 162.98
+2 &lt; 200
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Age: 3
+2 &lt; CF-Cache-Status: HIT
+2 &lt; CF-RAY: 5fb4aa509db117a3-SIN
+2 &lt; Cache-Control: max-age=14400
+2 &lt; Connection: keep-alive
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Date: Wed, 02 Dec 2020 11:21:36 GMT
+2 &lt; Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+2 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 &lt; NEL: {"report_to":"cf-nel","max_age":604800}
+2 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=qJjVeI5AHNG0IT4%2FHM2OVoD9hY2Z5%2BrWkdchtgsZmDynoIuaAJ9yzuYKC7rvl%2FMsP3K%2BZacNf6gespj27HOEvBxNL9xHkt6e1SQ%3D"}],"group":"cf-nel","max_age":604800}
+2 &lt; Server: cloudflare
+2 &lt; Set-Cookie: __cfduid=d86620dd73e966f3bf1db268163c84f7b1606908096; expires=Fri, 01-Jan-21 11:21:36 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Vary: Accept-Encoding
+2 &lt; Via: 1.1 vegur
+2 &lt; X-Powered-By: Express
+2 &lt; cf-request-id: 06c4c8c65f000017a3689c7000000001
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}</div>
+<div class="step-row">
+<div class="step-container" id="24">
+<div class="step-ref passed">24</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="25">
+<div class="step-ref passed">25</div>
+<div class="step-cell passed">And match response.page == 1</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>

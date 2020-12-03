@@ -1,0 +1,2 @@
+15:49:52.070 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:37:53.501 ignoring dynamic expression, did not evaluate to list: read('classpath:data.CSV') - [type: INPUT_STREAM, value: java.io.FileInputStream@447b8a47]
